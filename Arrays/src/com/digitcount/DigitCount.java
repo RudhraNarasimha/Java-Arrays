@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DigitCount {
 
 	private static void printUniqueDigitsCount(int number) {
-		// TODO Auto-generated method stub
+
 		int digit[] = new int[10];
 		while (number > 0) {
 			int rem = number % 10;
